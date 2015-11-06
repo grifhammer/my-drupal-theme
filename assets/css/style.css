@@ -1,0 +1,69 @@
+/* line 1, ../compass/sass/style.scss */
+#site-wrapper {
+  font-family: "Playfair Display", sans, serif;
+  width: 100%;
+}
+/* line 4, ../compass/sass/style.scss */
+#site-wrapper #masthead {
+  position: relative;
+  padding: 50px 0 75px 0;
+}
+/* line 7, ../compass/sass/style.scss */
+#site-wrapper #masthead #share-icon {
+  margin: 87px 0 0 9%;
+  float: left;
+}
+/* line 10, ../compass/sass/style.scss */
+#site-wrapper #masthead #share-icon img {
+  width: 18px;
+}
+/* line 18, ../compass/sass/style.scss */
+#site-wrapper #masthead #header-image #header-text-wrapper {
+  margin: 30px auto 0;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  width: 10%;
+}
+/* line 26, ../compass/sass/style.scss */
+#site-wrapper #masthead #search-wrapper {
+  top: 137px;
+  right: 10%;
+  position: absolute;
+}
+/* line 31, ../compass/sass/style.scss */
+#site-wrapper #masthead #search-wrapper img {
+  width: 18px;
+}
+/* line 37, ../compass/sass/style.scss */
+#site-wrapper #navbar-wrapper nav {
+  border-top: 1px #ebebeb solid;
+  border-bottom: 1px #ebebeb solid;
+}
+/* line 42, ../compass/sass/style.scss */
+#site-wrapper #navbar-wrapper nav ul li a {
+  color: black;
+  font-weight: bold;
+}
+/* line 48, ../compass/sass/style.scss */
+#site-wrapper #navbar-wrapper nav ul li.active {
+  border-top: 2px #EF9D87 solid;
+}
+/* line 54, ../compass/sass/style.scss */
+#site-wrapper #carousel-wrapper {
+  width: 75%;
+  margin: auto;
+  padding: 50px 0 50px 0;
+  height: 900px;
+}
+/* line 65, ../compass/sass/style.scss */
+#site-wrapper #carousel-wrapper #main-carousel .carousel-inner .item .carousel-caption {
+  font-weight: bold;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+/* line 71, ../compass/sass/style.scss */
+#site-wrapper #carousel-wrapper #main-carousel .carousel-inner :nth-child(3).item .carousel-caption {
+  font-weight: bold;
+  color: black;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}

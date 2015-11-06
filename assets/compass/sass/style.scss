@@ -1,0 +1,84 @@
+#site-wrapper{
+	font-family: "Playfair Display", sans, serif;
+	width: 100%;
+	#masthead{
+		position: relative;
+		padding: 50px 0 75px 0;
+		#share-icon{
+			margin: 87px 0 0 9%;
+			float: left;
+			img{
+				width: 18px;
+			}
+		}
+		#header-image{
+			img{
+
+			}
+			#header-text-wrapper{
+				margin: 30px auto 0;
+				text-align: center;
+				font-size: 30px;
+				font-weight: bold;
+				width: 10%;
+			}
+		}
+		#search-wrapper{
+			// margin: 0 9% 0 0;
+			top: 137px;
+			right: 10%;
+			position: absolute;
+			img{
+				width: 18px;
+			}
+		}
+	}
+	#navbar-wrapper{
+		nav{
+			border-top: 1px #ebebeb solid;
+			border-bottom: 1px #ebebeb solid;
+			ul{
+				li{
+					a{
+						color: black;
+						font-weight: bold;
+					}
+
+				}
+				li.active{
+					border-top: 2px #EF9D87 solid;
+				}
+			}
+		}
+	}
+	#carousel-wrapper{
+		width: 75%;
+		margin: auto;
+		padding: 50px 0 50px 0;
+		height: 900px;
+		#main-carousel{
+			.carousel-inner{
+				.item{
+					img{
+						
+					}
+					.carousel-caption{
+						font-weight: bold;
+						text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+					}
+				}
+				:nth-child(3).item{
+					.carousel-caption{
+						font-weight: bold;
+						color: black;
+						text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+					}
+				}
+				.active{
+
+				}
+
+			}
+		}
+	}
+}
